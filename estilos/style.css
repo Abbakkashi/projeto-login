@@ -72,8 +72,39 @@ section#Ilogin > div#Iform > p{
     padding-top: 5px;
 }
 
-span.icon{
+form > input[type=submit]{
     background-color: var(--cormedia);
+    border: none;
+    cursor: pointer;
     color: var(--corbranco);
     display: block;
+    font-weight: bold;
+    font-size: 1em;
+    height: 30px;
+    width: 100%;
+}
+
+form > input[type=submit]:hover{
+    background-color: var(--corescura);
+}
+
+form > a.button{
+    display: block;
+    background-color: var(--cormedia);
+    color: var(--corbranco);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+form > a.button:hover{
+    background-color: #041B15;
+}
+
+form > a.button > span{
+    font-size: 0.7em;
 }
