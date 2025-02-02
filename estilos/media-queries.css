@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(45deg, var(--cordestaque01), var(--cordestaque02));
+    }
+
+    section#Ilogin{
+        width: 85vw;
+    }
+
+    section#Ilogin > div#Iimagem{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+
+    section#Ilogin > div#Iform{
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body{
+        background-image: linear-gradient(to top, var(--cordestaque01), var(--cordestaque02));
+    }
+    
+    section#Ilogin{
+        width: 950px;
+    }
+
+    section#Ilogin > div#Iimagem{
+        float: right;
+        height: 100%;
+        width: 45%
+    }
+
+    section#Ilogin > div#Iform{
+        float: left;
+        width: 55%
+    }
+}

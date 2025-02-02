@@ -42,21 +42,26 @@ section#Ilogin{
 
     height: 500px;
     width: 250px;
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 
 section#Ilogin > div#Iimagem{
     background: var(--cordestaque02) url(../imagens/login-photo.jpg) center bottom no-repeat;
     background-size: cover;
+    display: block;
     height: 200px;
     
 }
 
 section#Ilogin > div#Iform{
+    display: block;
     padding: 15px;
 }
 
 section#Ilogin > div#Iform > h1{
-    color: #041B15;
+    color: var(--corescura);
 }
 
 section#Ilogin > div#Iform > p{
