@@ -6,6 +6,8 @@
     --corescura: #041B15;
     --cordestaque01: #FF934F;
     --cordestaque02: #912F56;
+
+    --shadow: 1px 1px 5px #041b1559;
 }
 
 *{
@@ -32,8 +34,33 @@ section#Ilogin{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
+
     background-color: var(--corbranco);
     border-radius: 10px;
+    box-shadow: var(--shadow);
+
     height: 500px;
     width: 250px;
+}
+
+section#Ilogin > div#Iimagem{
+    background: var(--cordestaque02) url(../imagens/login-photo.jpg) center bottom no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+}
+
+section#Ilogin > div#Iform{
+    padding: 15px;
+}
+
+section#Ilogin > div#Iform > h1{
+    color: #041B15;
+}
+
+section#Ilogin > div#Iform > p{
+    color: var(--corescura);
+    text-indent: 20px;
+    padding-top: 5px;
 }
