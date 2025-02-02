@@ -62,10 +62,18 @@ section#Ilogin > div#Iform{
 
 section#Ilogin > div#Iform > h1{
     color: var(--corescura);
+    text-align: center;
 }
 
 section#Ilogin > div#Iform > p{
     color: var(--corescura);
+    font-size: 0.9em;
     text-indent: 20px;
     padding-top: 5px;
+}
+
+span.icon{
+    background-color: var(--cormedia);
+    color: var(--corbranco);
+    display: block;
 }

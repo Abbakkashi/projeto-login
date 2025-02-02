@@ -40,4 +40,12 @@
         float: left;
         width: 55%
     }
+
+    section#Ilogin > div#Iform > h1{
+        font-size: 2em;
+    }
+
+    section#Ilogin > div#Iform > p{
+        font-size: 1.2em;
+    }
 }
