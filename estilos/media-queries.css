@@ -6,6 +6,7 @@
     }
 
     section#Ilogin{
+        height: 270px;
         width: 85vw;
     }
 
@@ -21,6 +22,7 @@
     }
 
     form > a.button, form > input[type=submit]{
+        margin-top: 5px;
         display: inline-block;
         width: 45%;
     }
@@ -32,6 +34,7 @@
     }
     
     section#Ilogin{
+        height: 300px;
         width: 950px;
     }
 
@@ -53,9 +56,9 @@
     section#Ilogin > div#Iform > p{
         font-size: 1.2em;
     }
-    
-    form > a.button, form > input[type=submit]{
 
+    form > a.button, form > input[type=submit]{
+        margin-top: 5px;
         display: inline-block;
         width: 45%;
     }
