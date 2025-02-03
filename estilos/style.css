@@ -72,6 +72,19 @@ section#Ilogin > div#Iform > p{
     padding-top: 5px;
 }
 
+form > div.campo{
+    background-color: var(--cordestaque02);
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form > div.campo > label{
+    display: none;
+}
+
 form > input[type=submit]{
     background-color: var(--cormedia);
     border: none;
@@ -90,19 +103,23 @@ form > input[type=submit]:hover{
 
 form > a.button{
     display: block;
-    background-color: var(--cormedia);
-    color: var(--corbranco);
+    border: 1px solid var(--cormedia);
+    background-color: var(--corbranco);
+    color: var(--corescura);
     font-size: 1em;
     font-weight: bold;
+    
     margin-top: 5px;
-    padding: 7px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
+    height: 30px;
     width: 100%;
 }
 
 form > a.button:hover{
-    background-color: #041B15;
+    background-color: var(--cormedia);
+    color: var(--corbranco);
 }
 
 form > a.button > span{

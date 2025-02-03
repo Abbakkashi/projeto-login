@@ -19,6 +19,11 @@
         float: right;
         width: 60%;
     }
+
+    form > a.button, form > input[type=submit]{
+        display: inline-block;
+        width: 45%;
+    }
 }
 
 @media screen and (min-width: 993px) {
@@ -47,5 +52,11 @@
 
     section#Ilogin > div#Iform > p{
         font-size: 1.2em;
+    }
+    
+    form > a.button, form > input[type=submit]{
+
+        display: inline-block;
+        width: 45%;
     }
 }
