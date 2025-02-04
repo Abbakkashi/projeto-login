@@ -69,7 +69,7 @@ section#Ilogin > div#Iform > p{
     color: var(--corescura);
     font-size: 0.9em;
     text-indent: 20px;
-    padding-top: 5px;
+    padding: 5px 0px 10px 0px
 }
 
 form > div.campo{
@@ -94,7 +94,7 @@ div.campo > span.material-symbols-outlined{
 }
 
 div.campo > input{
-    background-color: #fadcca;
+    background-color: var(--corbranco);
     font-size: 1em;
     
     height: 100%;
@@ -104,11 +104,13 @@ div.campo > input{
     transform: translateY(-11.5px);
 }
 
-div.campo > input:focus-within{
+/*div.campo > input:focus-within{
     background-color: var(--corbranco);
-}
+}*/
 
-form > input[type=submit]{
+div#submit{ padding-top: 10px;}
+
+div#submit > input[type=submit]{
     background-color: var(--cormedia);
     border: none;
     cursor: pointer;
@@ -121,12 +123,12 @@ form > input[type=submit]{
     
 }
 
-form > input[type=submit]:hover{
+div#submit > input[type=submit]:hover{
     background-color: var(--corescura);
 }
 
 
-form > a.button{
+div#submit > a.button{
     display: block;
     border: 1px solid var(--cormedia);
     background-color: var(--corbranco);
@@ -141,11 +143,11 @@ form > a.button{
     width: 100%;
 }
 
-form > a.button:hover{
+div#submit > a.button:hover{
     background-color: var(--cormedia);
     color: var(--corbranco);
 }
 
-form > a.button > span{
+div#submit > a.button > span{
     font-size: 0.7em;
 }
