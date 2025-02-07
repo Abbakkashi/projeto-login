@@ -21,6 +21,12 @@
         width: 60%;
     }
 
+    div#submit{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
     div#submit > a.button, div#submit > input[type=submit]{
         display: inline-block;
         width: 45%;
@@ -54,6 +60,12 @@
 
     section#Ilogin > div#Iform > p{
         font-size: 1em;
+    }
+
+    div#submit{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
     }
 
     div#submit > a.button, div#submit > input[type=submit]{

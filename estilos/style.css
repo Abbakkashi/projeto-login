@@ -24,15 +24,15 @@ body, html{
 }
 
 main{
-    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
 }
 
 section#Ilogin{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     overflow: hidden;
 
     background-color: var(--corbranco);
@@ -41,8 +41,7 @@ section#Ilogin{
 
     height: 500px;
     width: 250px;
-    
-    transform: translate(-50%,-50%);
+
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
 }
@@ -74,7 +73,7 @@ section#Ilogin > div#Iform > p{
 
 form > div.campo{
     background-color: var(--cordestaque02);
-    display: block;
+    display: flex;
     width: 100%;
     height: 30px;
     border-radius: 5px;
@@ -96,12 +95,12 @@ div.campo > span.material-symbols-outlined{
 div.campo > input{
     background-color: var(--corbranco);
     font-size: 1em;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
     
     height: 100%;
     width: calc(100% - 35px);
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    transform: translateY(-11.5px);
+    /*transform: translateY(-11.5px);*/
 }
 
 /*div.campo > input:focus-within{
